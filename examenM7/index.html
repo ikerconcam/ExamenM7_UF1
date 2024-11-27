@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestió de Tasques</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tauler de Tasques</h1>
+    <div class="tauler">
+      <!-- Secció Pendents -->
+      <div class="seccio pendents">
+        <h2>Pendents</h2>
+        <ul id="tasques-pendents">
+          <li>
+            Realitzar l'activitat 1
+            <button class="mou-feta">Fet!</button>
+          </li>
+          <li>
+            Revisar el Codi
+            <button class="mou-feta">Fet!</button>
+          </li>
+        </ul>
+      </div>
+      <!-- Secció Fetes -->
+      <div class="seccio fetes">
+        <h2>Fetes</h2>
+        <ul id="tasques-fetes">
+          <li>
+            Document de Programació
+            <button class="mou-pendent">Pendent</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
